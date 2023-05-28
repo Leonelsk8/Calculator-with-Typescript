@@ -1,0 +1,113 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(55, 61, 116);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section{
+  border: 1px solid white;
+  padding: 2em 2em;
+  border-radius: 10px;
+  background-color: rgb(83, 83, 83);
+  box-shadow: 3px 3px 10px black;
+}
+
+
+#resultLed{
+  height: 4em;
+  max-width: 18.5em;
+  background-color: rgb(46, 46, 46);
+  margin-bottom: 2em;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  overflow-x: hidden;
+  padding: 0.1em 0.8em;
+}
+
+#resultLed p{
+  font-size: 2em;
+  display: inline;
+  
+}
+
+.divButtons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.numbers button{
+ width: 5em;
+ height: 5em;
+ 
+}
+
+.divButtons button{
+  cursor: pointer;
+  background-color: rgb(52, 52, 52);
+  border-radius: 10px;
+  transition: 0.4s;
+  color: #fff;
+  border: #fff solid 1px;
+  margin: 0.3em;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.cero{
+  width: 7em;
+  height: 5em;
+}
+
+.dividir{
+  width: 5em;
+  height: 5em;
+}
+
+.calc{
+  width: 8em;
+  height: 5em;
+}
+
+.divButtons button:hover{
+  background-color: gray;
+}
+
+.buttHead{
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttHead button{
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.4s;
+  color: #fff;
+  border: #fff solid 1px;
+  margin: 0.3em;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.buttHead .del{
+  background-color: rgb(142, 32, 32);
+}
+
+.buttHead .on{
+  background-color: rgb(30, 129, 0);
+}

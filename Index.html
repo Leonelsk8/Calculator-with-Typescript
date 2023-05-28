@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora con typescript</title>
+  <link rel="stylesheet" href="./style/styles.css">
+</head>
+<body>
+  <main>
+    <section>
+      <div id="resultLed"></div>
+      <div id="bottons">
+        <div class="buttHead">
+          <button class="del" onclick="deleteNum()">Borrar</button>
+          <button class="on" onclick="OnAc()">On/Ac</button>
+        </div>
+        <div class="divButtons numbers">
+          <button class="buttonsSelect">7</button>
+          <button class="buttonsSelect">8</button>
+          <button class="buttonsSelect">9</button>
+          <button class="buttonsSelect">+</button>
+        </div>
+        <div class="divButtons numbers">
+          <button class="buttonsSelect">4</button>
+          <button class="buttonsSelect">5</button>
+          <button class="buttonsSelect">6</button>
+          <button class="buttonsSelect">-</button>
+        </div>
+        <div class="divButtons numbers">
+          <button class="buttonsSelect">1</button>
+          <button class="buttonsSelect">2</button>
+          <button class="buttonsSelect">3</button>
+          <button class="buttonsSelect">x</button>
+        </div>
+        <div class="divButtons">
+          <button class="cero buttonsSelect">0</button>
+          <button class="dividir buttonsSelect">/</button>
+          <button class="calc" onclick="calculate()">Calcular</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="./app/app.js"></script>
+</body>
+</html>
