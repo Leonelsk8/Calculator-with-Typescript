@@ -6,11 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculadora con typescript</title>
   <link rel="stylesheet" href="./style/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
+  <header>
+    <div class="animate__animated animate__fadeInDown">
+      <h1>Calculadora basica</h1>
+    </div>
+  </header>
   <main>
-    <section>
-      <div id="resultLed"></div>
+    <section class="animate__animated animate__fadeIn">
+      <div id="led">
+        <div id="resultLed"></div>
+      </div>
       <div id="bottons">
         <div class="buttHead">
           <button class="del" onclick="deleteNum()">Borrar</button>
@@ -42,6 +50,12 @@
       </div>
     </section>
   </main>
+  <footer>
+    <h2>Calculadora hecha con Typescript</h2>
+    <h2>por Leonel Gomez</h2>
+
+  </footer>
+
   <script src="./app/app.js"></script>
 </body>
 </html>
