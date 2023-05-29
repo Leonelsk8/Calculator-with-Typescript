@@ -1,6 +1,6 @@
 let cont: any[] = [];
 let number: string = '';
-let ON = false;
+let ON: boolean = false;
 
 const buttons = document.querySelectorAll('.buttonsSelect');
 const buttonsArray = Array.from(buttons);
